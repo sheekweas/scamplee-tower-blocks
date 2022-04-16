@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>scamplee gaming</title>
+    <link href="https://i.pinimg.com/474x/08/f0/79/08f079b6aefc47ab8c894009e30a60ef--pirate-games-guild-wars.jpg" rel="icon" type="image/x-icon" />
+
+    <meta name="viewport" content="width=device-width,user-scalable=no" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="game"></div>
+      <div id="score">0</div>
+      <div id="instructions">
+        Щелкните (или нажмите пробел), чтобы поместить блок
+      </div>
+      <div class="game-over">
+        <h2>Игра завершена</h2>
+        <p>Ты отлично справился, ты лучший.</p>
+        <p>Нажмите пробел или просто нажмите на экран, чтобы начать заново</p>
+      </div>
+      <div class="game-ready">
+        <div id="start-button">Начать</div>
+        <div></div>
+      </div>
+    </div>
+    <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="./js.js"></script>
+  </body>
+</html>
